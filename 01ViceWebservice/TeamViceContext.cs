@@ -10,7 +10,7 @@ namespace _01ViceWebservice
         public TeamViceContext()
             : base("name=TeamViceContext")
         {
-            base.Configuration.ProxyCreationEnabled = false;
+            base.Configuration.ProxyCreationEnabled = false; 
         }
 
         public virtual DbSet<Appartment> Appartments { get; set; }
